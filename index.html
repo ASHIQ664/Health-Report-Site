@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset = "UTF-8">
+    <title> Badar Al Samma Self Checkup </title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body{
+            font-family: 'Inter','Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #1a202c;
+        }
+        header{
+            background-color: #1e3a8a;
+            color:white;
+            padding: 24px 40px;
+            text-align: center;
+        }
+        nav{
+            background-color: #f0f8ff;
+            text-align: center;
+            padding: 16px 0;
+        }
+        nav a{
+            display: inline-block;
+            padding: 12px 24px;
+            margin: 0 10px;
+            background: linear-gradient(to right, #2563eb, #1d4ed8);
+            color:white;
+            font-weight: 600;
+            border-radius: 8px;
+            text-decoration: none;
+            box-shadow: 0 4px 12px rgba(37,99,235,0.15);
+            transition: background-color 0.2s ease, box-shadow 0.2s ease;
+        }
+        nav a:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(37,99,235,0.25);
+        }
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background-color: #e6f0f5;
+            max-width: 700px;
+            margin: 0 auto;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        .hero h1{
+            color: #1e3a8a;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 18px;
+            color: #4b5563;
+        }
+        footer{
+            background-color: #1e3a8a;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+
+        }
+        @keyframes fadeIn{
+            from{
+        opacity: 0; 
+        transform: translateY(20px);
+    }
+    to{
+        opacity: 1; 
+        transform: translateY(0);
+    }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Self Checkup System</h1>
+    </header>
+    <nav>
+            <a href="login.php">Login</a>
+            <a href = "register.php">Register</a>
+            <a href = "about.php">About us</a>
+    </nav>
+    <section class = "hero">
+        <h1>Simple. Fast. Professional.</h1>
+        <p>Submit your health checkups, consult doctor, and receive instant feedback-all from the comfort of your home.</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Badar Al Samma Self Checkup. All rights are reserved.</p>
+    </footer>
+</body>
+</html>
